@@ -25,6 +25,9 @@
   "author": "Davide Bianchi <davide.bianchi@mondora.com>",
   "license": "MIT",
   "homepage": "https://github.com/mondora/react-native-storage-wrapper",
+  "bugs": {
+    "url": "https://github.com/mondora/react-native-storage-wrapper/issues"
+  },
   "devDependencies": {
     "babel-cli": "^6.9.0",
     "babel-core": "^6.9.0",
@@ -43,11 +46,12 @@
     "react": "^0.14.8",
     "react-native": "^0.25.1",
     "react-native-mock": "^0.1.0",
+    "rimraf": "^2.5.2",
     "sinon": "^1.17.4",
     "sinon-chai": "^2.8.0"
   },
   "peerDependencies": {
-    "react": "<= 0.14",
-    "react-native": "<= 0.25"
+    "react": "*",
+    "react-native": "*"
   }
 }
