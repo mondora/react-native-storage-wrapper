@@ -30,7 +30,7 @@ storage.del("key"); // --> returns a Promise
 
 ```
 
-## Usage with asteroid
+## Usage with [asteroid](https://git.io/vr031)
 
 ```js
 
