@@ -1,3 +1,4 @@
+[![npm version](https://badge.fury.io/js/react-native-storage-wrapper.svg)](https://badge.fury.io/js/react-native-storage-wrapper)
 [![Build Status](https://travis-ci.org/mondora/react-native-storage-wrapper.svg?branch=master)](https://travis-ci.org/mondora/react-native-storage-wrapper)
 [![codecov.io](https://codecov.io/github/mondora/react-native-storage-wrapper/coverage.svg?branch=master)](https://codecov.io/github/mondora/react-native-storage-wrapper?branch=master)
 [![Dependency Status](https://david-dm.org/mondora/react-native-storage-wrapper.svg)](https://david-dm.org/mondora/react-native-storage-wrapper)
