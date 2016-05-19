@@ -1,0 +1,42 @@
+{
+    "extends": "eslint:recommended",
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "mocha": true,
+        "node": true
+    },
+    "plugins": [
+        "babel"
+    ],
+    "globals": {
+        "Promise": true
+    },
+    "rules": {
+        "babel/generator-star-spacing": [2],
+        "babel/new-cap": [2],
+        "babel/object-curly-spacing": [2],
+        "babel/object-shorthand": [2],
+        "babel/arrow-parens": [0],
+        "babel/no-await-in-loop": [2],
+        "brace-style": [2, "1tbs"],
+        "comma-spacing": [2, {"before": false, "after": true}],
+        "computed-property-spacing": [2, "never"],
+        "indent": [2, 4],
+        "jsx-quotes": [2, "prefer-double"],
+        "linebreak-style": [2, "unix"],
+        "new-cap": [2, {"capIsNew": false}],
+        "no-console": [0],
+        "no-multi-spaces": [0],
+        "no-underscore-dangle": [0],
+        "object-curly-spacing": [2, "never"],
+        "one-var": [2, "never"],
+        "quotes": [2, "double"],
+        "semi": [2, "always"],
+        "space-before-blocks": [2, "always"],
+        "space-before-function-paren": [2, "always"],
+        "space-in-parens": [2, "never"],
+        "spaced-comment": [2, "always"],
+        "strict": [2, "never"]
+    }
+}
